@@ -9,11 +9,12 @@
 ## Setup requirement :
    - Python 3 need to be installed 
        *  https://www.python.org/downloads/
-       *  Edit Path Environment Variable and add New  C:\Users\youeFolder\AppData\Local\Programs\Python\Python310
-       *  Edit Path Environment Variable and add New  C:\Users\yourFolder\AppData\Local\Programs\Python\Python310\Scripts
+       *  Edit Path Environment Variable and add your Python310 folder  C:\Users\youeFolder\AppData\Local\Programs\Python\Python310
+       *  Edit Path Environment Variable and add your Python310\Scripts   C:\Users\yourFolder\AppData\Local\Programs\Python\Python310\Scripts
    - User need to download and install ngrok
        *  https://ngrok.com/download
-       *  Edit Path Environment Variable and add New C:\Users\yourFolder\AppData\Local\Programs\ngrok
+       *  Edit Path Environment Variable and add your ngrok folder C:\Users\yourFolder\AppData\Local\Programs\ngrok
+       *  Open a terminal, and execute "ngrok http 5000" command to start ngrok server
    - User need to create a github webhook and include the forwarding URL from ngrok to github webhook
        *  https://github.com/OWNER/REPO/settings/hooks
        *  Paste the ngrok forwarding url into ngrok webhook
