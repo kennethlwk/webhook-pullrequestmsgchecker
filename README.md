@@ -15,7 +15,7 @@
        *   pip install Flask
    - User need to set the protected branch and checked the "Require status checks to pass before merging"
        * https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule
-       * ![image](https://user-images.githubusercontent.com/22057288/173725037-6f213b81-32d5-4d54-8a5d-4fe27ce27a40.png)
+![image](https://user-images.githubusercontent.com/22057288/173727304-51c845a4-9c26-47b5-92ed-de8880af4feb.png)
 
 ## Testing:
    - Observe the request and respond http messages in the executing terminal
