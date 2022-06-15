@@ -9,10 +9,8 @@
 ## Setup requirement :
    - User need to download and install ngrok
        *  https://ngrok.com/download
-       *  ![image](https://user-images.githubusercontent.com/22057288/173726136-66f62a4b-ca12-49d6-8201-1592e13a83bc.png)
    - User need to create a github webhook and include the forwarding URL from ngrok to github webhook
        *  https://github.com/OWNER/REPO/settings/hooks
-       *  ![image](https://user-images.githubusercontent.com/22057288/173726490-00d07b2f-215b-44ce-8903-a082ba41e754.png)
    - User need to install flask
        *   pip install Flask
    - User need to set the protected branch and checked the "Require status checks to pass before merging"
